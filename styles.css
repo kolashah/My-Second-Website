@@ -57,7 +57,7 @@ p {
 .profilePic {
     background-color: white;
     width: 200px;
-    /margin: 0 3rem;
+    margin: 0 3rem;
     border-radius: 100%;
 
 }
