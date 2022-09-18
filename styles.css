@@ -57,18 +57,11 @@ p {
 .profilePic {
     background-color: white;
     width: 200px;
-    margin: 0 3rem;
-    margin-top: 30px;
+    /margin: 0 3rem;
     border-radius: 100%;
 
 }
 
-.folder,
-.algo {
-    width: 200px;
-    margin: 0 3rem;
-    margin-top: 30px
-}
 
 .cloud1 {
     position: relative;
@@ -92,22 +85,28 @@ p {
     width: 50%;
     margin: 50px auto;
     text-align: left;
-    line-height: 2
+    line-height: 2;
+    min-width: 150px;
+
+}
+
+.folder,
+.adventure {
+    margin-top: 30px;
+    max-width: 25%;
+    width: 150px;
 }
 
 .folder {
     margin: 0;
-    width: 25%;
     float: left;
     margin-right: 30px;
-    margin-top: 12px
+    margin-top: 12px;
+    
 }
 
-
-
-.algo {
+.adventure {
     margin: 0;
-    width: 25%;
     float: right;
     margin-left: 30px;
 }
